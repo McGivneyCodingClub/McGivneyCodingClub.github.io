@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>McGivney Coding Club - Official Website</title>
+	<link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h4>McGivney Coding Club</h4>
+	  </div>
+	  <ul class="nav-links">
+        <li>
+			<a href="/index.html"
+			><h4>Calendar</h4></a
+		</li>
+
+	  </ul>
+	  <div class="burger">
+		  <div class="line1"></div>
+		  <div class="line2"></div>
+		  <div class="line3"></div>
+	  </div>
+    </nav>
+    <style>
+		body {
+			font-family: "Poppins", sans-serif;
+			margin: 0;
+		}
+		.header {
+			font-family: 'Staatliches', sans-serif;
+		padding: 150px;
+		text-align: center;
+		background: black;
+		color: rgb(214, 214, 214);
+		font-size: 30px;
+		}
+		.Content {
+			font-family: "Poppins", sans-serif;
+		  padding: 20px;
+		background: #b6a7db;
+		color: Black;
+		font-size: 20px;
+		}
+	</style>   
+  
+  
+	<div class="header">
+		  <h1 id="header"style="text-align:center;"><u>McGivney Coding Club - Official Website</u>
+
+		</h1>
+	</div>	
+	<div class="Content">
+
+		<p>Welcome to the official McGivney Coding Club Website!</p>
+		<p>Here, you can find out about this club, the next meeting dates, Positions available and more</p>
+
+	  
+
+	</div>
+	
+	<script src="app.js"></script>
+
+  </body>
+</html>
