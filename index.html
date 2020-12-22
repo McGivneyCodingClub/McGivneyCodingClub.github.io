@@ -1,76 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>McGivney Coding Club - Official Website</title>
-	<link rel="stylesheet" href="style.css" />
-	<link rel="icon" href="/cropped-Father_McG_Logo-1.jpg" type="image/icon type"/>
-  </head>
-  <body>
-    <nav>
-      <div class="logo">
-        <h4>McGivney Coding Club</h4>
-	  </div>
-	  <ul class="nav-links">
-		  <li><a href="/index.html"><h4>Home</h4></a></li>
-        <li>
-			<a href="/calendar.html"
-			><h4>Meeting Dates</h4></a
-		</li>
-		<li>
-			<a href="/positions.html"><h4>Positions</h4></a>
-		</li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McGivney Coding Club Official</title>
+    <link rel="icon" href="/img/McGivney Coding Club Official Logo.png" type="image/icon type" />
+        <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!--Nav bar Section-->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#section1" id="navbar__logo"><img src="/img/McGivney Coding Club Official Logo.png" alt="Logo" class="navbar__logo" height="80px" width="25%">McGivney Coding Club</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#section1" class="navbar__links">
+                    Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#section2" class="navbar__links">
+                    About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#section3" class="navbar__links">
+                    Meetings</a>
+                <li class="navbar__item">
+                    <a href="#section5" class="navbar__links">
+                    The Team</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#section4" class="navbar__links">
+                    Contact</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/Sign_up.html" class="button">
+                    Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav> 
 
-	  </ul>
-	  <div class="burger">
-		  <div class="line1"></div>
-		  <div class="line2"></div>
-		  <div class="line3"></div>
-	  </div>
-    </nav>
-    <style>
-		body {
-			font-family: "Poppins", sans-serif;
-			margin: 0;
-		}
-		.header {
-			font-family: 'Staatliches', sans-serif;
-		padding: 150px;
-		text-align: center;
-		background: black;
-		color: rgb(214, 214, 214);
-		font-size: 30px;
-		}
-		.Content {
-			font-family: "Poppins", sans-serif;
-		  padding: 20px;
-		background: #d6c7c7;
-		color: Black;
-		font-size: 20px;
-		}
-	</style>   
-  
-  
-	<div class="header">
-		  <h1 id="header"style="text-align:center;"><u>McGivney Coding Club - Home Page</u>
+    <!--Hero Section-->
+    <div id="section1">
+        <div class="main__container">
+            <div class="main__content">
+                <h2>
+                    McGivney Coding Club</h2>
+                <h3>Beginner Friendly Coding for Young Developers</h3>
+                <button class="main__btn"><a href="#section2">Learn More</a></button>
+                <a href="/Sign_up.html" class="signup__btn">
+                    Sign Up</a>
+            </div>
+            <div class="main__img--container">
+                <img src="/img/MCCpic1.png" alt="pic" id="main__img"/>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
 
-		</h1>
-	</div>	
-	<div class="Content">
 
-		<p>Welcome to the official McGivney Coding Club Website!</p>
-		<p>Here, you can find out about this club, the next meeting dates, positions available and more</p>
 
-	  
 
-	</div>
-	
-	<script src="app.js"></script>
 
-  </body>
+    <div id="section2">
+        <div id="section2--header"><h1>What Are We About?</h1></div>
+        <div class="section2--body"><p> <b>McGivney Coding Club is a beginner-friendly club to learn programming. Students will gain experiencial knowledge through lessons/workshops, coding projects, and leetcode challenges. We here at MCC teach the fundamental concepts of software development to prepare you for multiple avenues of programming (competitive programming, app development, web development and more). McGivney Coding Club was created by Father Michael MGivney in Markham, Ontario </b> </p></div>
+    </div>
+        <div class="section2--image"><img src="/img/YCDSB-Father-McGivney-1393-2-800x445.jpg (NEW).png" alt="Father Michael McGivney"></div>
+
+
+    <div id="section3">
+        <div id="section3--header"><h1>Meeting Dates</h1></div>
+        <div class="section3--body"><h3>Meetings happen every other Friday from 3:30pm to 4:30pm starting January 8<sup>th</sup>, 2021.</h3></div>
+        <div class="calendar"><div class="calendarTitle"></div>
+    </div>
+    <div id="section5">
+        <div id="section5--header"><h1>Meet The Team</h1></div>
+        <div class="section5--body"><div class="sup"><h3>Teacher Supervisor</h3><h2>Ms. Sum</h2></div><div class="pres"><h3>President</h3><h2>Derrick R</h2></div><div class="vp"><h3>Vice-President</h3><h2>Pragith P</h2></div><div class="MT"><h3><b>Marketing Team</b></h3><h2>Ariana T, Seeron S, Govind K, Vernujen J</h2></div><div class="sec"><h3>Secretaries</h3><h2>Varshaa P, Seeron S</h2></div></div>
+    </div>
+
+
+    <div id="section4">
+        <div id="section4--header"><h1>Contact</h1></div>
+            <div class="section4--body"><div class="section4--line1"><h3>For any Questions</h3><p>fmmcodingclub@gmail.com</p></div>
+
+            <div class="section4--line2"><h3>Instagram <img src="/img/iconmonstr-instagram-11.svg" alt="" id="insta"></h3> <p>@fmm.mcc</p></div>
+
+        </div>       
+        <div class="happy_holidays"><h2>HAPPY HOLIDAYS</h2></div>
+    </div>
+
+
+</body>
 </html>
+
+
+
