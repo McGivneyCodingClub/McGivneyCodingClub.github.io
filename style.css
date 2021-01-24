@@ -156,6 +156,9 @@ html {
   color: #f77062;
   transition: all 0.3s ease;
 }
+.github{
+  text-align: center;
+  }
 
 @media screen and (max-width: 539px){
   .alert{
@@ -246,9 +249,7 @@ html {
   }
 
 
-  .github{
-    text-align: center;
-  }
+
   
 
 
