@@ -246,6 +246,10 @@ html {
   }
 
 
+  .github{
+    text-align: center;
+  }
+
 
   #mobile-menu {
     border-bottom-left-radius: 60px;
