@@ -1,4 +1,3 @@
-  
 * {
 
   box-sizing: border-box;
@@ -22,6 +21,28 @@ html {
   position: sticky;
   top: 0;
   z-index: 999;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  display: none;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
 }
 
 .navbar__container {
@@ -128,6 +149,15 @@ html {
 .navbar__links:hover {
   color: #f77062;
   transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 539px){
+  .alert{
+    display: block;
+    position: fixed;
+    z-index: 999;
+  }
+
 }
 
 @media screen and (max-width: 960px) {
@@ -339,7 +369,7 @@ z-index: -1;
   width: 90%;
   left: 5%;
   background: var(--c-tertiary);
-  backdrop-filter: saturate(130%) blur(3px);
+  backdrop-filter: saturate(130%) blur(6px);
   -webkit-backdrop-filter: saturate(180%) blur(50px);
   position: relative;
   padding: calc(var(--v-space)/2) 0;
@@ -402,7 +432,7 @@ z-index: -1;
   left: 15%;
   width: 70%;
   background: var(--c-tertiary);
-  backdrop-filter: saturate(130%) blur(3px);
+  backdrop-filter: saturate(130%) blur(6px);
   -webkit-backdrop-filter: saturate(180%) blur(50px);
   position: relative;
   padding: calc(var(--v-space)/2) 0;
@@ -422,7 +452,7 @@ z-index: -1;
   display: inline-block;
   background-color: ivory;
   background: var(--c-tertiary);
-  backdrop-filter: saturate(130%) blur(3px);
+  backdrop-filter: saturate(130%) blur(10px);
   -webkit-backdrop-filter: saturate(180%) blur(50px);
   position: relative;
   padding: calc(var(--v-space)/2) 0;
@@ -438,7 +468,7 @@ z-index: -1;
   display: inline-block;
   width: 90%;
   background: var(--c-tertiary);
-  backdrop-filter: saturate(130%) blur(3px);
+  backdrop-filter: saturate(130%) blur(6px);
   -webkit-backdrop-filter: saturate(180%) blur(50px);
   position: relative;
   padding: calc(var(--v-space)/2) 0;
