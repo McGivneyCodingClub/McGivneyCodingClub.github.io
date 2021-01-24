@@ -156,9 +156,10 @@ html {
   color: #f77062;
   transition: all 0.3s ease;
 }
+
 .github{
   text-align: center;
-  }
+}
 
 @media screen and (max-width: 539px){
   .alert{
@@ -382,7 +383,6 @@ z-index: -1;
 
 #section2 {
   position: relative;
-  height: 800px;
   margin-bottom: 30px;
   justify-content: space-between;
   text-align: center;
@@ -521,6 +521,7 @@ z-index: -1;
 }
 
 .section2--body {
+  padding-bottom: 50px;
   line-height: 2rem;
   margin-top: 6rem;
   margin-left: 10%;
