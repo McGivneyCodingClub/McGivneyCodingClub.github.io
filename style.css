@@ -29,6 +29,12 @@ html {
   color: white;
   display: none;
 }
+.alert2 {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  display: none;
+}
 
 .closebtn {
   margin-left: 15px;
@@ -153,6 +159,14 @@ html {
 
 @media screen and (max-width: 539px){
   .alert{
+    display: block;
+    position: fixed;
+    z-index: 999;
+  }
+
+}
+@media screen and (max-width: 439px){
+  .alert2{
     display: block;
     position: fixed;
     z-index: 999;
