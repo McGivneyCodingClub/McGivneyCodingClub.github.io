@@ -205,6 +205,7 @@ html {
   }
   .navbar__menu.active {
     display: inline-block;
+    height: 100%;
     width: 100%;
     background: var(--c-tertiary);
     backdrop-filter: saturate(180%) blur(10px);
@@ -549,7 +550,7 @@ z-index: -1;
   
 }
 #section3--header {
-  padding-top: 30px;
+  padding-top: 90px;
 }
 #section4--header {
   padding-top: 70px;
